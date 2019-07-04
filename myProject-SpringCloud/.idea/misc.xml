@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/spring-cloud-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/pom.xml" />
       </list>
     </option>
   </component>
