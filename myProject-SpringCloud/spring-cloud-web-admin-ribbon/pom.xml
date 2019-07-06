@@ -18,6 +18,12 @@
     <inceptionYear>2018-Now</inceptionYear>
 
     <dependencies>
+
+        <!--熔断器-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
         <!-- Spring Boot Begin -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
