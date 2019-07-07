@@ -10,6 +10,7 @@
         <module name="spring-cloud-service-admin" />
         <module name="spring-cloud-web-admin-feign" />
         <module name="spring-cloud-web-admin-ribbon" />
+        <module name="spring-cloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="spring-cloud-service-admin" target="1.8" />
       <module name="spring-cloud-web-admin-feign" target="1.8" />
       <module name="spring-cloud-web-admin-ribbon" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
