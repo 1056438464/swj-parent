@@ -32,16 +32,16 @@
       <file leaf-file-name="LoginFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/swj/spring/cloud/zuul/filter/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-368">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="66" column="69" lean-forward="false" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -367,12 +367,12 @@
       <workItem from="1562166528474" duration="1973000" />
       <workItem from="1562248325991" duration="4958000" />
       <workItem from="1562415031627" duration="8645000" />
-      <workItem from="1562481146022" duration="3562000" />
+      <workItem from="1562481146022" duration="4278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19138000" />
+    <option name="totallyTimeSpent" value="19854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -679,16 +679,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/swj/spring/cloud/zuul/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="66" column="69" lean-forward="false" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
           </folding>
         </state>
       </provider>

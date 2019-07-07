@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Component
@@ -62,6 +63,8 @@ public class LoginFilter extends ZuulFilter {
             context.setSendZuulResponse(false);
             context.setResponseStatusCode(401);
             try {
+                HttpServletResponse response = context.getResponse();
+                response.setContentType("text/html;charset = utf-8");
                 context.getResponse().getWriter().write("Token is empty");
             } catch (IOException e) {
             }
