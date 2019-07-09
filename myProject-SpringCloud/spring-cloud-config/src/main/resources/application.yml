@@ -10,8 +10,8 @@ spring:
           uri: git@github.com:1056438464/myProject-SpringCloud.git
 #          目录
           search-paths: spring-cloud-config
-          username: 
-          password:
+          username: 1056438464@qq.com
+          password: swj192310.
 #          访问地址：https://github.com/1056438464/yml文件名/分支名 例http://localhost:8888/web-admin-feign/master
 # java -jar hello-spring-cloud-web-admin-feign-1.0.0-SNAPSHOT.jar --spring.profiles.active=prod
 
