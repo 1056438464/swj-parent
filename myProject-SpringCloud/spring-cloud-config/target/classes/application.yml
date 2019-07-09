@@ -12,7 +12,8 @@ spring:
           search-paths: spring-cloud-config
           username: 1056438464@qq.com
           password: swj192310.
-#          访问地址：https://github.com/1056438464/yml文件名/分支名
+#          访问地址：https://github.com/1056438464/yml文件名/分支名 例http://localhost:8888/web-admin-feign/master
+# java -jar hello-spring-cloud-web-admin-feign-1.0.0-SNAPSHOT.jar --spring.profiles.active=prod
 
 #默认端口，不能修改，如果要修改需要新建一个bootstrap.yml文件中 写如server：port：端口号
 server:
