@@ -42,6 +42,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/java/com/swj/spring/cloud/web/admin/feign/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,11 +69,11 @@
         <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/java/com/swj/spring/cloud/zipkin/ZipKinApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,8 +164,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-web-admin-feign/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-zipkin/src/main/java/com/swj/spring/cloud/zipkin/ZipKinApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zipkin/src/main/java/com/swj/spring/cloud/zipkin/ZipKinApplication.java" />
       </list>
     </option>
   </component>
@@ -175,6 +185,15 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-dependencies" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-dependencies" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-cloud-zipkin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -233,6 +252,56 @@
               <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProject-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -775,8 +844,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.WebAdminFeignApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ConfigApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConfigApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.WebAdminFeignApplication" />
         <item index="2" class="java.lang.String" itemvalue="Spring Boot.ZipKinApplication" />
         <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaApplication" />
         <item index="4" class="java.lang.String" itemvalue="Spring Boot.WebAdminRibbonApplication" />
@@ -798,12 +867,12 @@
       <workItem from="1562415031627" duration="8645000" />
       <workItem from="1562481146022" duration="11009000" />
       <workItem from="1562594495556" duration="547000" />
-      <workItem from="1562677068179" duration="3342000" />
+      <workItem from="1562677068179" duration="3917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30474000" />
+    <option name="totallyTimeSpent" value="31049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1085,14 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/swj/spring/cloud/zuul/provider/WebAdminFeignFallbackProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1192,14 +1253,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/java/com/swj/spring/cloud/zipkin/ZipKinApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
           </folding>
         </state>
       </provider>

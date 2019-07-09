@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableZipkinServer
+@EnableZipkinSever
 public class ZipKinApplication {
     public static void main(String[] args) {
         SpringApplication.run(ZipKinApplication.class, args);
