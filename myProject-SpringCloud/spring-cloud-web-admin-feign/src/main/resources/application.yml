@@ -5,3 +5,4 @@ spring:
       name: web-admin-feign
       label: master
       profile: dev
+

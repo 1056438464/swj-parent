@@ -2,6 +2,11 @@ spring:
   application:
     name: spring-cloud-zipkin
 
+#服务监控
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 server:
   port: 9411
 
