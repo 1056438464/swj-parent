@@ -15,10 +15,12 @@ eureka:
   instance:
     hostname: localhost
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://http://192.168.240.131:8761/eureka/,http://http://192.168.240.131:8861/eureka/,http://http://192.168.240.131:8961/eureka/
+
+
 
 management:
   endpoint:
