@@ -10,8 +10,9 @@
         <option value="$PROJECT_DIR$/itoken-admin/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-service-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-common-service/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
