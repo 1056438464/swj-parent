@@ -17,9 +17,11 @@ spring:
         url: http://localhost:8084
 server:
   port: 8765
+  
 feign:
   hystrix:
     enabled: true
+    
 eureka:
   client:
     serviceUrl:

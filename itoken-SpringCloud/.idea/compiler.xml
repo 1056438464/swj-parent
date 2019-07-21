@@ -8,22 +8,31 @@
         <outputRelativeToContentRoot value="true" />
         <module name="itoken-admin" />
         <module name="itoken-common-service" />
+        <module name="itoken-common-web" />
         <module name="itoken-config" />
         <module name="itoken-eureka" />
         <module name="itoken-service-admin" />
+        <module name="itoken-service-web" />
+        <module name="itoken-web-admin" />
         <module name="itoken-zipkin" />
         <module name="itoken-zuul" />
+        <module name="itokencommom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itoken-admin" target="1.8" />
+      <module name="itoken-common" target="1.5" />
       <module name="itoken-common-service" target="1.8" />
+      <module name="itoken-common-web" target="1.8" />
       <module name="itoken-config" target="1.8" />
       <module name="itoken-dependencies" target="1.8" />
       <module name="itoken-eureka" target="1.8" />
       <module name="itoken-service-admin" target="1.8" />
+      <module name="itoken-service-web" target="1.5" />
+      <module name="itoken-web-admin" target="1.8" />
       <module name="itoken-zipkin" target="1.8" />
       <module name="itoken-zuul" target="1.8" />
+      <module name="itokencommom" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

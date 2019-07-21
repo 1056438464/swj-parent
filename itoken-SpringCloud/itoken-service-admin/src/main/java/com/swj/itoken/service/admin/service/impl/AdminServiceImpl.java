@@ -10,8 +10,10 @@ import tk.mybatis.mapper.entity.Example;
 
 @Service
 public class AdminServiceImpl implements AdminService {
+
     @Autowired
     private TbSysUserMapper tbSysUserMapper;
+
     @Override
     public void register(TbSysUser tbSysUser) throws Exception {
         tbSysUserMapper.insert(tbSysUser);
