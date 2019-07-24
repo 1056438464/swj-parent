@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/itoken-service-web/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-common-web/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-web-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-service-redis/pom.xml" />
       </list>
     </option>
   </component>
