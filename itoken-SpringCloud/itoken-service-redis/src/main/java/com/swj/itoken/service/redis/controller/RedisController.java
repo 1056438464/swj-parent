@@ -15,13 +15,13 @@ public class RedisController {
     private RedisService redisService;
 
     @RequestMapping(value = "put", method = RequestMethod.GET)
-    public String set(String key, String value, int seconds) {
+    public String put(String key, String value, int seconds) {
         redisService.set(key, value, seconds);
         return RESULT_OK;
     }
 
-    @RequestMapping(value = "find", method = RequestMethod.GET)
-    public String find(String key) {
+    @RequestMapping(value = "get", method = RequestMethod.GET)
+    public String get(String key) {
         String json = null;
 
         Object obj = redisService.get(key);
