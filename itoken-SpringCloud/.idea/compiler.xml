@@ -13,6 +13,7 @@
         <module name="itoken-eureka" />
         <module name="itoken-service-admin" />
         <module name="itoken-service-redis" />
+        <module name="itoken-service-sso" />
         <module name="itoken-service-web" />
         <module name="itoken-web-admin" />
         <module name="itoken-zipkin" />
@@ -30,6 +31,7 @@
       <module name="itoken-eureka" target="1.8" />
       <module name="itoken-service-admin" target="1.8" />
       <module name="itoken-service-redis" target="1.8" />
+      <module name="itoken-service-sso" target="1.8" />
       <module name="itoken-service-web" target="1.5" />
       <module name="itoken-web-admin" target="1.8" />
       <module name="itoken-zipkin" target="1.8" />

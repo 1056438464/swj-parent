@@ -10,10 +10,10 @@
         <relativePath>../itoken-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>itoken-service-admin</artifactId>
+    <artifactId>itoken-service-sso</artifactId>
     <packaging>jar</packaging>
 
-    <name>itoken-service-admin</name>
+    <name>itoken-service-sso</name>
     <url>https://github.com/1056438464</url>
     <inceptionYear>2018-Now</inceptionYear>
 
@@ -28,6 +28,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -36,32 +40,10 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.swj.itoken.service.admin.ServiceAdminApplication</mainClass>
+                    <mainClass>com.swj.itoken.service.sso.ServiceSSOApplication</mainClass>
                 </configuration>
             </plugin>
 
-            <plugin>
-                <groupId>org.mybatis.generator</groupId>
-                <artifactId>mybatis-generator-maven-plugin</artifactId>
-                <version>1.3.5</version>
-                <configuration>
-                    <configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
-                    <overwrite>true</overwrite>
-                    <verbose>true</verbose>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>${mysql.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>tk.mybatis</groupId>
-                        <artifactId>mapper</artifactId>
-                        <version>3.4.4</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
         </plugins>
     </build>
 </project>
