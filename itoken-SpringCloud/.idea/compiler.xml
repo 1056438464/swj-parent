@@ -19,11 +19,19 @@
         <module name="itoken-zipkin" />
         <module name="itoken-zuul" />
         <module name="itokencommom" />
+        <module name="itokencommondomain" />
+      </profile>
+      <profile name="Annotation profile for itoken-common-domain" enabled="true">
+        <sourceOutputDir name="../itokencommondomain/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../itokencommondomain/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="itoken-common-domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itoken-admin" target="1.8" />
       <module name="itoken-common" target="1.5" />
+      <module name="itoken-common-domain" target="1.8" />
       <module name="itoken-common-service" target="1.8" />
       <module name="itoken-common-web" target="1.8" />
       <module name="itoken-config" target="1.8" />
@@ -37,6 +45,7 @@
       <module name="itoken-zipkin" target="1.8" />
       <module name="itoken-zuul" target="1.8" />
       <module name="itokencommom" target="1.5" />
+      <module name="itokencommondomain" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

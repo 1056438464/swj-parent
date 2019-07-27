@@ -1,4 +1,4 @@
-package com.swj.itoken.service.admin.mapper;
+package com.swj.itoken.service.sso.mapper;
 
 import com.swj.itoken.common.domain.TbSysUser;
 import org.springframework.stereotype.Repository;

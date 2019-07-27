@@ -1,6 +1,7 @@
 package com.swj.itoken.service.admin.service;
 
-import com.swj.itoken.service.admin.domain.TbSysUser;
+
+import com.swj.itoken.common.domain.TbSysUser;
 
 public interface AdminService {
     /**

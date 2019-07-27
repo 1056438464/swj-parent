@@ -20,6 +20,11 @@
     <dependencies>
         <dependency>
             <groupId>com.swj</groupId>
+            <artifactId>itoken-common-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.swj</groupId>
             <artifactId>itoken-common-service</artifactId>
             <version>${project.parent.version}</version>
         </dependency>

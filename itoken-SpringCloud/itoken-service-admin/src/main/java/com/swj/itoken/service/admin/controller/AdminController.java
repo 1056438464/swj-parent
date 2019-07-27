@@ -1,6 +1,7 @@
 package com.swj.itoken.service.admin.controller;
 
-import com.swj.itoken.service.admin.domain.TbSysUser;
+
+import com.swj.itoken.common.domain.TbSysUser;
 import com.swj.itoken.service.admin.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,10 +1,10 @@
-package com.swj.itoken.service.admin.domain;
+package com.swj.itoken.common.domain;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
-import javax.persistence.*;
 
-@Table(name = "swj..tb_sys_user")
+@Table(name = "tb_sys_user")
 public class TbSysUser {
     /**
      * 用户编码

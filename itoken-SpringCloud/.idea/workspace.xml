@@ -17,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/itoken-web-admin/target/" />
     <ignored path="$PROJECT_DIR$/itoken-service-redis/target/" />
     <ignored path="$PROJECT_DIR$/itoken-service-sso/target/" />
+    <ignored path="$PROJECT_DIR$/itokencommondomain/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +38,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-admin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/AdminService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/impl/AdminServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbSysUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/mapper/TbSysUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbSysUserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/resources/mapper/TbSysUserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-633">
+              <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-sso/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbSysUserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/resources/mapper/TbSysUserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbSysUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/mapper/TbSysUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="41" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ServiceSSOApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/ServiceSSOApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="322">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,11 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/itoken-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-eureka/src/main/java/com/swj/itoken/eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/itoken-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/itoken-zipkin/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-zipkin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/itoken-zipkin/src/main/java/com/swj/itoken/zipkin/ZipKinApplication.java" />
         <option value="$PROJECT_DIR$/itoken-admin/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-admin/src/main/java/com/swj/itoken/admin/AdminApplication.java" />
@@ -99,11 +189,7 @@
         <option value="$PROJECT_DIR$/itoken-common-service/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/AminService.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/mapper/TbSysUserMapper.java" />
         <option value="$PROJECT_DIR$/itokencommom/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/itoken-service-web/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-common-web/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-web-admin/pom.xml" />
@@ -120,10 +206,19 @@
         <option value="$PROJECT_DIR$/itoken-service-redis/src/main/java/com/swj/itoken/service/redis/service/RedisService.java" />
         <option value="$PROJECT_DIR$/itoken-service-redis/src/main/java/com/swj/itoken/service/redis/service/impl/RedisServiceImpl.java" />
         <option value="$PROJECT_DIR$/itoken-service-redis/src/main/java/com/swj/itoken/service/redis/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/itoken-service-admin/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-service-sso/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/itoken-service-sso/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/domain/TbSysUser.java" />
+        <option value="$PROJECT_DIR$/itokencommondomain/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-common-domain/src/main/java/com/swj/itoken/common/domain/TbSysUser.java" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/mapper/TbSysUserMapper.java" />
+        <option value="$PROJECT_DIR$/itoken-service-admin/src/main/resources/mapper/TbSysUserMapper.xml" />
         <option value="$PROJECT_DIR$/itoken-service-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/mapper/TbSysUserMapper.java" />
         <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/ServiceSSOApplication.java" />
       </list>
     </option>
@@ -211,28 +306,225 @@
             <path>
               <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-service-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-service-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-service-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-service-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -308,88 +600,43 @@
               <item name="itoken-service-sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-service-sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="swj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="swj" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="swj" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="swj" type="462c0819:PsiDirectoryNode" />
-              <item name="itoken" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,6 +664,10 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.swj.itoken.service.sso.mapper" />
+      <recent name="com.swj.itoken.common.domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspaces\dubbo\itoken-SpringCloud\itoken-service-sso\src\main\resources" />
       <recent name="D:\workspaces\dubbo\itoken-SpringCloud\itoken-web-admin\src\main\resources" />
@@ -612,12 +863,12 @@
       <workItem from="1563692818450" duration="3459000" />
       <workItem from="1563697994428" duration="6002000" />
       <workItem from="1563977460034" duration="3442000" />
-      <workItem from="1564199494834" duration="2154000" />
+      <workItem from="1564199494834" duration="2988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52551000" />
+    <option name="totallyTimeSpent" value="53385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -698,55 +949,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itoken-admin/src/main/java/com/swj/itoken/admin/AdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="77" column="55" lean-forward="false" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-zuul/src/main/java/com/swj/itoken/zuul/ZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/src/main/java/com/swj/itoken/config/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="73" column="70" lean-forward="false" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-zipkin/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-admin/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-config/src/main/resources/bootstrap-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -792,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/ServiceAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -810,34 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/mapper/TbSysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/impl/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -985,14 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-service-redis/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1025,22 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-web-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-web-admin/src/main/java/com/swj/itoken/web/admin/WebAdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1049,14 +1192,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/ServiceSSOApplication.java">
+    <entry file="file://$PROJECT_DIR$/itoken-web-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="575">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/ServiceAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/domain/TbSysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common-domain/src/main/java/com/swj/itoken/common/domain/TbSysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/java/com/swj/itoken/service/admin/mapper/TbSysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-admin/src/main/resources/mapper/TbSysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-633">
+          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/resources/mapper/TbSysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/mapper/TbSysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/ServiceSSOApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
