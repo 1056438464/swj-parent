@@ -3,7 +3,7 @@ package com.swj.itoken.service.sso.service;
 
 import com.swj.itoken.common.domain.TbSysUser;
 
-public interface AdminService {
+public interface LoginService {
     /**
      * 用户注册
      * @param tbSysUser
