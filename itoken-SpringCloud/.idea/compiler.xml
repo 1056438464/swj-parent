@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="itoken-admin" />
+        <module name="itoken-common-domain" />
         <module name="itoken-common-service" />
         <module name="itoken-common-web" />
         <module name="itoken-config" />
@@ -20,12 +21,6 @@
         <module name="itoken-zuul" />
         <module name="itokencommom" />
         <module name="itokencommondomain" />
-      </profile>
-      <profile name="Annotation profile for itoken-common-domain" enabled="true">
-        <sourceOutputDir name="../itokencommondomain/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../itokencommondomain/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="itoken-common-domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
