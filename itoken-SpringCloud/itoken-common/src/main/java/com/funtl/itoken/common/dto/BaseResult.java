@@ -12,6 +12,58 @@ public class BaseResult implements Serializable {
     public static final String RESULT_NOT_OK = "not_ok";
     public static final String SUCCESS = "成功操作";
 
+    public static String getResultOk() {
+        return RESULT_OK;
+    }
+
+    public static String getResultNotOk() {
+        return RESULT_NOT_OK;
+    }
+
+    public static String getSUCCESS() {
+        return SUCCESS;
+    }
+
+    public String getResult() {
+        return result;
+    }
+
+    public void setResult(String result) {
+        this.result = result;
+    }
+
+    public Object getData() {
+        return data;
+    }
+
+    public void setData(Object data) {
+        this.data = data;
+    }
+
+    public String getSuccess() {
+        return success;
+    }
+
+    public void setSuccess(String success) {
+        this.success = success;
+    }
+
+    public Cursor getCursor() {
+        return cursor;
+    }
+
+    public void setCursor(Cursor cursor) {
+        this.cursor = cursor;
+    }
+
+    public List<Error> getErrors() {
+        return errors;
+    }
+
+    public void setErrors(List<Error> errors) {
+        this.errors = errors;
+    }
+
     private String result;
     private Object data;
     private String success;

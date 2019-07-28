@@ -84,20 +84,8 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="333">
               <caret line="83" column="51" lean-forward="true" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoken-common/src/main/java/com/funtl/itoken/common/dto/BaseResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,8 +185,8 @@
         <option value="$PROJECT_DIR$/itoken-common-web/src/main/java/com/swj/itoken/commom/web/Interceptor/Interceptor.java" />
         <option value="$PROJECT_DIR$/itoken-common-web/src/main/java/com/swj/itoken/commom/web/InterceptorConfig/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/itoken-common/pom.xml" />
-        <option value="$PROJECT_DIR$/itoken-common/src/main/java/com/funtl/itoken/common/dto/BaseResult.java" />
         <option value="$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/itoken-common/src/main/java/com/funtl/itoken/common/dto/BaseResult.java" />
       </list>
     </option>
   </component>
@@ -264,6 +252,87 @@
             <path>
               <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="funtl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="funtl" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="funtl" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itoken-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="funtl" type="462c0819:PsiDirectoryNode" />
+              <item name="itoken" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="itoken-SpringCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -742,12 +811,12 @@
       <workItem from="1563697994428" duration="6002000" />
       <workItem from="1563977460034" duration="3442000" />
       <workItem from="1564199494834" duration="7998000" />
-      <workItem from="1564303470791" duration="4878000" />
+      <workItem from="1564303470791" duration="5037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63273000" />
+    <option name="totallyTimeSpent" value="63432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1180,16 +1249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoken-common/src/main/java/com/funtl/itoken/common/dto/BaseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/service/impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -1208,9 +1267,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/itoken-common/src/main/java/com/funtl/itoken/common/dto/BaseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/itoken-service-sso/src/main/java/com/swj/itoken/service/sso/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="333">
           <caret line="83" column="51" lean-forward="true" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
