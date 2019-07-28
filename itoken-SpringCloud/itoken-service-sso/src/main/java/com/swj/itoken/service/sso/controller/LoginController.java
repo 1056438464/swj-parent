@@ -1,7 +1,7 @@
 package com.swj.itoken.service.sso.controller;
 
-import com.funtl.itoken.common.utils.CookieUtils;
-import com.funtl.itoken.common.utils.MapperUtils;
+import com.swj.itoken.common.utils.CookieUtils;
+import com.swj.itoken.common.utils.MapperUtils;
 import com.swj.itoken.common.domain.TbSysUser;
 import com.swj.itoken.service.sso.service.LoginService;
 import com.swj.itoken.service.sso.service.consumer.RedisCacheService;
