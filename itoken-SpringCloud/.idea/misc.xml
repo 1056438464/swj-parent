@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/itoken-service-sso/pom.xml" />
         <option value="$PROJECT_DIR$/itokencommondomain/pom.xml" />
         <option value="$PROJECT_DIR$/itoken-common-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/itoken-common/pom.xml" />
       </list>
     </option>
   </component>
