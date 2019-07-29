@@ -2,8 +2,9 @@ package com.swj.itoken.service.admin.service;
 
 
 import com.swj.itoken.common.domain.TbSysUser;
+import com.swj.itoken.common.service.BaseService;
 
-public interface AdminService {
+public interface AdminService<T> extends BaseService<T>{
     /**
      * 用户注册
      * @param tbSysUser

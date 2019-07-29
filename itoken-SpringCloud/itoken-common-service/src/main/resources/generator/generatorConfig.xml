@@ -32,7 +32,7 @@
 
         <!-- 配置 DAO 存放路径 -->
         <javaClientGenerator
-                targetPackage="com.swj.itoken.common.mapper.mapper"
+                targetPackage="com.swj.itoken.common.mapper"
                 targetProject="src/main/java"
                 type="XMLMAPPER"/>
 

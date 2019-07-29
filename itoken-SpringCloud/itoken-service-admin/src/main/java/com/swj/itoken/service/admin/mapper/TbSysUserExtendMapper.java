@@ -6,5 +6,5 @@ import tk.mybatis.mapper.myMapper;
 
 
 @Repository
-public interface TbSysUserMapper extends myMapper<TbSysUser> {
+public interface TbSysUserExtendMapper extends myMapper<TbSysUser> {
 }
