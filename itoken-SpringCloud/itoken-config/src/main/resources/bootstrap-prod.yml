@@ -12,8 +12,8 @@ spring:
         git:
           uri: https://github.com/1056438464/myProject-SpringCloud.git
           search-paths: spring-cloud-config
-          username: 1056438464@qq.com
-          password: swj192310.
+          username: 
+          password: 
   zipkin:
     base-url: http://192.168.240.131:9411
 
