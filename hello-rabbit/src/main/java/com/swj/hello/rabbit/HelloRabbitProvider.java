@@ -22,7 +22,7 @@ public class HelloRabbitProvider {
     public void send() {
         String context = "hello" + new Date();
         System.out.println("Provider: " + context);
-        amqpTemplate.convertAndSend("helloRabbit", context);
+        amqpTemplate.convertAndSend("helloRabbit1", context);
     }
 }
 

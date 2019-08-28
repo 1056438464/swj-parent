@@ -37,10 +37,10 @@
                 type="XMLMAPPER"/>
 
         <!-- 配置需要生成的表，% 代表所有 -->
-        <!--<table catalog="swj" tableName="%">-->
-        <table catalog="swj" tableName="tb_sys_user">
+        <table catalog="test" tableName="%">
+        <!--<table catalog="swj" tableName="tb_sys_user">-->
             <!-- mysql 配置 -->
-            <generatedKey column="user_code" sqlStatement="Mysql" identity="false"/>
+            <!--<generatedKey column="user_code" sqlStatement="Mysql" identity="false"/>-->
         </table>
     </context>
 </generatorConfiguration>
