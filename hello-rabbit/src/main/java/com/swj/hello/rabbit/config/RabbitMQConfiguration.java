@@ -17,6 +17,6 @@ import org.springframework.amqp.core.Queue;
 public class RabbitMQConfiguration {
     @Bean
     public Queue queue() {
-        return new Queue("helloRabbit1");
+        return new Queue("helloRabbit1",false,false,false,null);
     }
 }
