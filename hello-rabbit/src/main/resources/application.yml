@@ -6,3 +6,7 @@ spring:
     port: 5672
     username: rabbit
     password: 123456
+    # 一次只发送一条数据给消费者
+    listener:
+      direct:
+        prefetch: 1
