@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="swj-common" />
+        <module name="swj-common-db" />
+        <module name="swj-crawler-api" />
+        <module name="swj-domain" />
+        <module name="swj-eureka" />
+        <module name="swj-service-crawler" />
+        <module name="swj-service-goods" />
+        <module name="swj-service-search" />
+        <module name="swj-service-search-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="swj-common" target="1.8" />
+      <module name="swj-common-db" target="1.8" />
+      <module name="swj-crawler-api" target="1.8" />
+      <module name="swj-domain" target="1.8" />
+      <module name="swj-eureka" target="1.8" />
+      <module name="swj-service" target="1.8" />
+      <module name="swj-service-api" target="1.8" />
+      <module name="swj-service-crawler" target="1.8" />
+      <module name="swj-service-goods" target="1.8" />
+      <module name="swj-service-search" target="1.8" />
+      <module name="swj-service-search-api" target="1.8" />
+      <module name="swj_parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

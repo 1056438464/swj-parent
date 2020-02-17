@@ -1,0 +1,4 @@
+com\swj\crawler\controller\CrawlerController.class
+com\swj\crawler\mapper\TbSpuMapper.class
+com\swj\crawler\model\TbSpu.class
+com\swj\crawler\CrawlerApplication.class

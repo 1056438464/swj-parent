@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/swj-common/swj-common.iml" filepath="$PROJECT_DIR$/swj-common/swj-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-common-db/swj-common-db.iml" filepath="$PROJECT_DIR$/swj-common-db/swj-common-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-service-api/swj-crawler-api/swj-crawler-api.iml" filepath="$PROJECT_DIR$/swj-service-api/swj-crawler-api/swj-crawler-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-eureka/swj-eureka.iml" filepath="$PROJECT_DIR$/swj-eureka/swj-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service.iml" filepath="$PROJECT_DIR$/swj-service/swj-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-service-api/swj-service-api.iml" filepath="$PROJECT_DIR$/swj-service-api/swj-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service-crawler/swj-service-crawler.iml" filepath="$PROJECT_DIR$/swj-service/swj-service-crawler/swj-service-crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service-goods/swj-service-goods.iml" filepath="$PROJECT_DIR$/swj-service/swj-service-goods/swj-service-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service-search/swj-service-search.iml" filepath="$PROJECT_DIR$/swj-service/swj-service-search/swj-service-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-service-api/swj-service-search-api/swj-service-search-api.iml" filepath="$PROJECT_DIR$/swj-service-api/swj-service-search-api/swj-service-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj_parent.iml" filepath="$PROJECT_DIR$/swj_parent.iml" />
+    </modules>
+  </component>
+</project>

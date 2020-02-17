@@ -1,0 +1,9 @@
+com\changgou\entity\StatusCode.class
+com\changgou\util\DateUtil.class
+com\changgou\entity\Page.class
+com\changgou\util\IdWorker.class
+com\changgou\interceptor\FeignInterceptor.class
+com\changgou\util\RandomUtil.class
+com\changgou\entity\PageResult.class
+com\changgou\entity\Result.class
+com\changgou\util\ConvertUtils.class
