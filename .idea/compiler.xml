@@ -11,10 +11,12 @@
         <module name="swj-crawler-api" />
         <module name="swj-domain" />
         <module name="swj-eureka" />
+        <module name="swj-scheduling" />
         <module name="swj-service-crawler" />
         <module name="swj-service-goods" />
         <module name="swj-service-search" />
         <module name="swj-service-search-api" />
+        <module name="swj-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,12 +25,16 @@
       <module name="swj-crawler-api" target="1.8" />
       <module name="swj-domain" target="1.8" />
       <module name="swj-eureka" target="1.8" />
+      <module name="swj-rabbitconsumer" target="1.8" />
+      <module name="swj-scheduling" target="1.8" />
       <module name="swj-service" target="1.8" />
       <module name="swj-service-api" target="1.8" />
       <module name="swj-service-crawler" target="1.8" />
       <module name="swj-service-goods" target="1.8" />
+      <module name="swj-service-scheduling" target="1.8" />
       <module name="swj-service-search" target="1.8" />
       <module name="swj-service-search-api" target="1.8" />
+      <module name="swj-zuul" target="1.8" />
       <module name="swj_parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>

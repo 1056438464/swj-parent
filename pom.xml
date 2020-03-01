@@ -13,6 +13,7 @@
         <module>swj-service</module>
         <module>swj-common</module>
         <module>swj-common-db</module>
+        <module>swj-zuul</module>
         <module>swj-service-api</module>
     </modules>
 

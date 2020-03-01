@@ -1,0 +1,46 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: zuul
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+#  redis:
+#    host: 192.168.200.128
+  rabbitmq:
+    host: 47.98.131.180
+    username: rabbit
+    password: 123456
+    publisher-confirms: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    api-a:
+      path: /api/crawler/**
+      serviceId: crawler
+    api-b:
+      path: /api/goods/**
+      serviceId: goods
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制
+          enabled: true
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            # 熔断器超时时间，默认：1000/毫秒
+            timeoutInMilliseconds: 20000
+workerId: 0
+datacenterId: 0

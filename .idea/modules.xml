@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service-goods/swj-service-goods.iml" filepath="$PROJECT_DIR$/swj-service/swj-service-goods/swj-service-goods.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service-search/swj-service-search.iml" filepath="$PROJECT_DIR$/swj-service/swj-service-search/swj-service-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service-api/swj-service-search-api/swj-service-search-api.iml" filepath="$PROJECT_DIR$/swj-service-api/swj-service-search-api/swj-service-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-zuul/swj-zuul.iml" filepath="$PROJECT_DIR$/swj-zuul/swj-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj_parent.iml" filepath="$PROJECT_DIR$/swj_parent.iml" />
     </modules>
   </component>
