@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="swj-common" />
         <module name="swj-common-db" />
+        <module name="swj-config-centre-server" />
         <module name="swj-crawler-api" />
         <module name="swj-domain" />
         <module name="swj-eureka" />
@@ -22,6 +23,7 @@
     <bytecodeTargetLevel>
       <module name="swj-common" target="1.8" />
       <module name="swj-common-db" target="1.8" />
+      <module name="swj-config-centre-server" target="1.8" />
       <module name="swj-crawler-api" target="1.8" />
       <module name="swj-domain" target="1.8" />
       <module name="swj-eureka" target="1.8" />

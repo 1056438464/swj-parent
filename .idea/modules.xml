@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/swj-common/swj-common.iml" filepath="$PROJECT_DIR$/swj-common/swj-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-common-db/swj-common-db.iml" filepath="$PROJECT_DIR$/swj-common-db/swj-common-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-config-centre-server/swj-config-centre-server.iml" filepath="$PROJECT_DIR$/swj-config-centre-server/swj-config-centre-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service-api/swj-crawler-api/swj-crawler-api.iml" filepath="$PROJECT_DIR$/swj-service-api/swj-crawler-api/swj-crawler-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-eureka/swj-eureka.iml" filepath="$PROJECT_DIR$/swj-eureka/swj-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service.iml" filepath="$PROJECT_DIR$/swj-service/swj-service.iml" />

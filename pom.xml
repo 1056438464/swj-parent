@@ -15,6 +15,7 @@
         <module>swj-common-db</module>
         <module>swj-zuul</module>
         <module>swj-service-api</module>
+        <module>swj-config-centre-server</module>
     </modules>
 
 

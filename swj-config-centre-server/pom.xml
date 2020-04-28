@@ -9,24 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>swj-service</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>swj-service-crawler</module>
-        <module>swj-service-goods</module>
-        <module>swj-service-search</module>
-    </modules>
+    <artifactId>swj-config-centre-server</artifactId>
 
     <dependencies>
+        <!-- Spring Cloud Begin -->
         <dependency>
-            <groupId>com.swj</groupId>
-            <artifactId>swj-crawler-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+        <!-- Spring Cloud End -->
     </dependencies>
 
 </project>

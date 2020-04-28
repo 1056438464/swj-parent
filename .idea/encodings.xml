@@ -4,14 +4,11 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-common-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-config-centre-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-eureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-rabbitconsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service-api/swj-crawler-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-service-api/swj-crawler-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-service-api/swj-service-search-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service-api/swj-service-search-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service/swj-service-crawler" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service/swj-service-goods" charset="UTF-8" />
