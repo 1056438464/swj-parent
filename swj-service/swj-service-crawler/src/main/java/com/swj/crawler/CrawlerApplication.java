@@ -3,13 +3,13 @@ package com.swj.crawler;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-@EnableEurekaClient
-@MapperScan(basePackages = "com.swj.crawler.mapper")
+@EnableDiscoveryClient
+@MapperScan(basePackages = "com.swj.crawler.mapper.*")
 public class CrawlerApplication {
     public static void main(String[] args) {
-        SpringApplication.run( CrawlerApplication.class);
+        SpringApplication.run(CrawlerApplication.class);
     }
 }

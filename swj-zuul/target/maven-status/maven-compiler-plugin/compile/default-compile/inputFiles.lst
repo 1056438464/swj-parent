@@ -1,0 +1,5 @@
+E:\swj-parent-master\swj-parent-master\swj-zuul\src\main\java\com\swj\zuul\ZuulApplication.java
+E:\swj-parent-master\swj-parent-master\swj-zuul\src\main\java\com\swj\zuul\config\RabbitMQConfiguration.java
+E:\swj-parent-master\swj-parent-master\swj-zuul\src\main\java\com\swj\zuul\provider\WebAdminFeignFallbackProvider.java
+E:\swj-parent-master\swj-parent-master\swj-zuul\src\main\java\com\swj\zuul\filter\LoginFilter.java
+E:\swj-parent-master\swj-parent-master\swj-zuul\src\main\java\com\swj\zuul\consumer\RabbitConsumer.java

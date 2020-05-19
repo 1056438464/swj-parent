@@ -4,6 +4,15 @@
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -107,6 +116,7 @@
     <orderEntry type="library" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.12.1" level="project" />
     <orderEntry type="module" module-name="swj-crawler-api" />
+    <orderEntry type="module" module-name="swj-common-mapper" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-elasticsearch:2.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.2.0.RELEASE" level="project" />

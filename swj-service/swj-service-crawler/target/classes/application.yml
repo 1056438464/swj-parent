@@ -4,32 +4,39 @@ spring:
   application:
     name: crawler
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.98.131.180:3306/crawler?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    username: root
-    password: 192310
-    type: com.alibaba.druid.pool.DruidDataSource
     druid:
-      nitial-size: 8
-      min-idle: 1
-      max-active: 20
-      max-wait: 60000
-      time-between-eviction-runsMillis: 60000
-      min-evictable-idle-timeMillis: 300000
-      validation-query: select 1
-      test-while-idle: true
-      test-on-borrow: false
-      test-on-return: false
-      pool-prepared-statements: true
-      max-open-prepared-statements: 20
-      max-pool-prepared-statement-per-connection-size: 20
-      filters: stat
-      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-      use-global-data-source-stat: true
+      crawler:
+        nitialSize: 8
+        min-idle: 1
+        max-active: 20
+        max-wait: 60000
+        time-between-eviction-runsMillis: 60000
+        min-evictable-idle-timeMillis: 300000
+        validation-query: select 1
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        pool-prepared-statements: true
+        max-open-prepared-statements: 20
+        max-pool-prepared-statement-per-connection-size: 20
+        filters: stat
+        connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+        use-global-data-source-stat: true
+        db-type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://47.98.131.180:3306/crawler?useUnicode=true&characterEncoding=utf-8&useSSL=false
+        username: root
+        password: 192310
+        driver-class-name: com.mysql.cj.jdbc.Driver
   main:
     allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
-#  redis:
-#    host: 192.168.200.128
+  cloud:
+    config:
+      uri: http://localhost:9015
+      name: application
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
 eureka:
   client:
     service-url:
@@ -44,8 +51,6 @@ feign:
       default:   #配置全局的feign的调用超时时间  如果 有指定的服务配置 默认的配置不会生效
         connectTimeout: 60000 # 指定的是 消费者 连接服务提供者的连接超时时间 是否能连接  单位是毫秒
         readTimeout: 20000  # 指定的是调用服务提供者的 服务 的超时时间（）  单位是毫秒
-mybatis:
-  mapper-locations: classpath*:mapper/*Mapper.xml
 #hystrix 配置
 hystrix:
   command:
@@ -59,5 +64,7 @@ hystrix:
           thread:
             # 熔断器超时时间，默认：1000/毫秒
             timeoutInMilliseconds: 20000
+mybatis:
+  type-handlers-package: com.swj.crawler.config
 workerId: 0
 datacenterId: 0

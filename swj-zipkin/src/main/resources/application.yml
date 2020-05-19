@@ -1,0 +1,33 @@
+server:
+  port: 9012
+spring:
+  application:
+    name: zipkin
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+management:
+  metrics:
+    web:
+      server:
+        request:
+          autotime:
+            enabled: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka
+  instance:
+    prefer-ip-address: true
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制
+          enabled: true
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            # 熔断器超时时间，默认：1000/毫秒
+            timeoutInMilliseconds: 20000

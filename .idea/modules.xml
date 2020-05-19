@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/swj-common/swj-common.iml" filepath="$PROJECT_DIR$/swj-common/swj-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-common-db/swj-common-db.iml" filepath="$PROJECT_DIR$/swj-common-db/swj-common-db.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-config-centre-server/swj-config-centre-server.iml" filepath="$PROJECT_DIR$/swj-config-centre-server/swj-config-centre-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-common-mapper/swj-common-mapper.iml" filepath="$PROJECT_DIR$/swj-common-mapper/swj-common-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-config-centre/swj-config-centre.iml" filepath="$PROJECT_DIR$/swj-config-centre/swj-config-centre.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service-api/swj-crawler-api/swj-crawler-api.iml" filepath="$PROJECT_DIR$/swj-service-api/swj-crawler-api/swj-crawler-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-eureka/swj-eureka.iml" filepath="$PROJECT_DIR$/swj-eureka/swj-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service.iml" filepath="$PROJECT_DIR$/swj-service/swj-service.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service-goods/swj-service-goods.iml" filepath="$PROJECT_DIR$/swj-service/swj-service-goods/swj-service-goods.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service/swj-service-search/swj-service-search.iml" filepath="$PROJECT_DIR$/swj-service/swj-service-search/swj-service-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service-api/swj-service-search-api/swj-service-search-api.iml" filepath="$PROJECT_DIR$/swj-service-api/swj-service-search-api/swj-service-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-zipkin/swj-zipkin.iml" filepath="$PROJECT_DIR$/swj-zipkin/swj-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-zuul/swj-zuul.iml" filepath="$PROJECT_DIR$/swj-zuul/swj-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj_parent.iml" filepath="$PROJECT_DIR$/swj_parent.iml" />
     </modules>

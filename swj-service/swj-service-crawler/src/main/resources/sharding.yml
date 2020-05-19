@@ -1,0 +1,40 @@
+#yml语法说明 !!表示实例化该类， -表示可以包含一个或多个， []表示数组，可以与-相互替换使用
+dataSources:
+  ds0: !!com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.98.131.180:3306/crawler?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 192310
+    initialSize: 5
+    maxActive: 20
+    minIdle: 5
+    maxWait: 60000
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    validationQuery: SELECT 'X'
+    validationQueryTimeout: 30000
+    testOnBorrow: false
+    testOnReturn: false
+    testWhileIdle: true
+shardingRule:
+  tables:
+    log:
+      actualDataNodes: ds0.log${0..5} #数据节点，数据分片的最小单元
+      tableStrategy:
+        standard: #用于单分片键的标准分片场景
+          shardingColumn: user_id #分片列名称
+          #精确分片算法类名称，用于=和IN。。该类需实现PreciseShardingAlgorithm接口并提供无参数的构造器
+          preciseAlgorithmClassName: com.swj.crawler.shardingutil.CustomPreciseShardingAlgorithm
+          #范围分片算法类名称，用于BETWEEN，可选。。该类需实现RangeShardingAlgorithm接口并提供无参数的构造器
+          rangeAlgorithmClassName: com.swj.crawler.shardingutil.CustomRangeShardingAlgorithm
+      keyGenerator:
+        type: SNOWFLAKE
+        column: id
+  defaultDataSourceName: ds0
+  defaultTableStrategy:
+    none:
+  defaultKeyGenerator:
+    type: SNOWFLAKE
+    column: user_id
+props:
+  sql.show: true

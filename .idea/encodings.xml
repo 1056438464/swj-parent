@@ -4,16 +4,34 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-common-db" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-config-centre-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-common-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-common-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-config-centre" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-config-centre/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-config-centre/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-eureka/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service-api/swj-crawler-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-service-api/swj-crawler-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service-api/swj-service-search-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-service-api/swj-service-search-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service/swj-service-crawler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-service/swj-service-crawler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-service/swj-service-crawler/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service/swj-service-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-service/swj-service-goods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-service/swj-service-goods/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-service/swj-service-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-service/swj-service-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-service/swj-service-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swj-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swj-zuul/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

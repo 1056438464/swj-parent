@@ -1,0 +1,37 @@
+spring:
+  shardingsphere:
+    datasource:
+      names: crawler
+      crawler:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://47.98.131.180:3306/crawler?useUnicode=true&characterEncoding=utf-8&useSSL=false
+        username: root
+        password: 192310
+        initialSize: 5
+        maxActive: 20
+        minIdle: 5
+        maxWait: 60000
+        poolPreparedStatements: true
+        maxPoolPreparedStatementPerConnectionSize: 20
+        validationQuery: SELECT 'X'
+        validationQueryTimeout: 30000
+        testOnBorrow: false
+        testOnReturn: false
+        testWhileIdle: true
+    sharding:
+      tables:
+        log:
+          actual-data-nodes: crawler.log$->{0..5}
+          table-strategy:
+            inline:
+              sharding-column: user_id
+              algorithm-expression: log$->{user_id % 6}
+          key-generator:
+            column: id
+            type: SNOWFLAKE
+      default-data-source-name: crawler
+      binding-tables: log
+    props:
+      sql:
+        show: true

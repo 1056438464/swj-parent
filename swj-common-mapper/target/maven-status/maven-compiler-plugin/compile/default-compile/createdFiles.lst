@@ -1,0 +1,6 @@
+com\swj\crawler\model\Log.class
+com\swj\crawler\model\TbSku.class
+com\swj\crawler\mapper\impl\LogMapper.class
+com\swj\crawler\mapper\impl\TbSkuMapper.class
+com\swj\crawler\mapper\impl\TbSpuMapper.class
+com\swj\crawler\model\TbSpu.class
