@@ -22,9 +22,6 @@ public class CrawlerDataSourceConfig {
     @Value("${spring.datasource.druid.crawler.filters}")
     private String filters;
 
-    @Value("${spring.datasource.druid.crawler.url}")
-    private String url;
-
     @Bean(name = "crawlerDataSource")
     @ConfigurationProperties(prefix = "spring.datasource.druid.crawler")
     public DataSource dataSource() {

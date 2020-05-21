@@ -1,6 +1,8 @@
 server:
   port: 9002
 spring:
+  zipkin:
+    base-url: http://localhost:9412
   application:
     name: goods
   datasource:
@@ -10,10 +12,6 @@ spring:
     password: 192310
   main:
     allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
-#  redis:
-#    host: 192.168.200.128
-#  rabbitmq:
-#    host: 192.168.200.128
 eureka:
   client:
     service-url:

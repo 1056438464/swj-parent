@@ -21,9 +21,12 @@ shardingRule:
     log:
       actualDataNodes: ds0.log${0..5} #数据节点，数据分片的最小单元
       tableStrategy:
-        inline: #用于单分片键的标准分片场景
+        standard: #用于单分片键的标准分片场景
           shardingColumn: user_id #分片列名称
-          algorithmExpression: log${user_id % 6}
+          #精确分片算法类名称，用于=和IN。。该类需实现PreciseShardingAlgorithm接口并提供无参数的构造器
+          preciseAlgorithmClassName: com.swj.crawler.shardingutil.CustomPreciseShardingAlgorithm
+          #范围分片算法类名称，用于BETWEEN，可选。。该类需实现RangeShardingAlgorithm接口并提供无参数的构造器
+          rangeAlgorithmClassName: com.swj.crawler.shardingutil.CustomRangeShardingAlgorithm
       keyGenerator:
         type: SNOWFLAKE
         column: id

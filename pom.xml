@@ -14,17 +14,17 @@
         <module>swj-common</module>
         <module>swj-common-db</module>
         <module>swj-zuul</module>
+        <module>swj-zipkin</module>
         <module>swj-service-api</module>
         <module>swj-config-centre</module>
         <module>swj-common-mapper</module>
-        <module>swj-zipkin</module>
     </modules>
 
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.0.RELEASE</version>
+        <version>2.1.1.RELEASE</version>
     </parent>
 
     <properties>
@@ -46,7 +46,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Hoxton.SR1</version>
+                <version>Greenwich.SR5</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

@@ -1,6 +1,8 @@
 server:
-  port: 9001
+  port: 9003
 spring:
+  zipkin:
+    base-url: http://localhost:9412
   application:
     name: crawler
   datasource:
@@ -28,15 +30,7 @@ spring:
         password: 192310
         driver-class-name: com.mysql.cj.jdbc.Driver
   main:
-    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
-  cloud:
-    config:
-      uri: http://localhost:9015
-      name: application
-      label: master
-      profile: dev
-      discovery:
-        enabled: true
+    allow-bean-definition-overriding: false #当遇到同样名字的时候，是否允许覆盖注册
 eureka:
   client:
     service-url:

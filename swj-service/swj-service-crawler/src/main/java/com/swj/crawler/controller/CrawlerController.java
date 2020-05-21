@@ -25,7 +25,8 @@ public class CrawlerController {
 
     @RequestMapping("/selectByPrimaryKey")
     public TbSpu selectByPrimaryKey() throws Exception {
-        return tbSpuMapper.selectByPrimaryKey("10000000616300");
+
+        return tbSpuMapper.selectByPrimaryKey("10000000616301");
     }
 
     @RequestMapping("/returnText")
